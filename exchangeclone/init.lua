@@ -10,6 +10,8 @@ exchangeclone.sound_mod = exchangeclone.mcl and mcl_sounds or default
 
 local modpath = minetest.get_modpath("exchangeclone")
 
+dofile(modpath .. "/fixed_point.lua")
+
 exchangeclone.colors = {}
 
 if exchangeclone.mcl then
